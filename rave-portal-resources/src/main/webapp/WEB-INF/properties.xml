@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xmlns:context="http://www.springframework.org/schema/context"
+				xmlns:util="http://www.springframework.org/schema/util"
+				xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+		
+	<!-- To enable @RequestMapping process on type level and method level -->
+	<util:properties id="socialAuthProperties">
+		<prop key="www.google.com.consumer_key">socialmail.in</prop>
+		<prop key="www.google.com.consumer_secret">S1b-aU4gElbFCSUMxKzWDdEn</prop>
+		<prop key="api.login.yahoo.com.consumer_key">dj0yJmk9QnFYNXY2OUhlSHprJmQ9WVdrOVZYcERhVFpYTXpnbWNHbzlNVEEzTVRrMU1ETTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD1hZg--</prop>
+		<prop key="api.login.yahoo.com.consumer_secret">6e40c8db9a764cb160e13164bc8ba6fb0bc3ed14</prop>
+		<prop key="twitter.com.consumer_key">rjBT6tPwZwiMhHQXqVZogw</prop>
+		<prop key="twitter.com.consumer_secret">GdN8PzbARb9G3FXBmfTfbeP0MSYngRnUxu3CC7FQU</prop>
+		<prop key="graph.facebook.com.consumer_key">412665882143630</prop>
+		<prop key="graph.facebook.com.consumer_secret">612880746b07d8d891e4350ce7f6f56e</prop>
+		<prop key="consent.live.com.consumer_key">00000000480FE57B</prop>
+		<prop key="consent.live.com.consumer_secret">O0td0vTHhzTdW0fJYqLPTS5fumM2D9M3</prop>
+		<!-- <prop key="api.linkedin.com.consumer_key">e5yvx7ulbf4o</prop>
+		<prop key="api.linkedin.com.consumer_secret">89DVNKWUrssl38uN</prop> -->
+		<prop key="api.linkedin.com.consumer_key">gyw6tubrvyw1</prop>
+		<prop key="api.linkedin.com.consumer_secret">6vEIpXHIYH197J17</prop>
+		<prop key="foursquare.com.consumer_key">JQKEM1PHWFW4YF2YPEQBRRESXE3SBGNCYJWWDTZKF3IZNJ3V</prop>
+		<prop key="foursquare.com.consumer_secret">4IILLDFDVPP2LC554S4KXKETQNTDKPDSEVCKVHA2QEHKYBEQ</prop>
+		<prop key="api.myspace.com.consumer_key">29db395f5ee8426bb90b1db65c91c956</prop>
+		<prop key="api.myspace.com.consumer_secret">0fdccc829c474e42867e16b68cda37a4c4b7b08eda574fe6a959943e3e9be709</prop>
+		<prop key="googleapis.com.consumer_key">126318766776-4thgdh0h5h5gs1hdjabjcv06egk4mepe.apps.googleusercontent.com</prop>
+		<prop key="googleapis.com.consumer_secret">nEyMYnOeDQbPIppz0NWPv-5G</prop>
+	</util:properties>
+</beans>

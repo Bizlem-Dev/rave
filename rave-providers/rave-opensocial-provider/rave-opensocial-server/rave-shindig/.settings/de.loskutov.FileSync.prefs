@@ -1,0 +1,8 @@
+WARNING=DO NOT MODIFY THIS FILE IF YOU DON'T UNDERSTAND
+defaultDestination=
+defaultVariables=
+eclipse.preferences.version=1
+includeTeamPrivateFiles=false
+map|0=src/main/webapp|@../rave-portal/target/tomcat6x/webapps/ROOT|,|,|,
+map|1=src/main/resources|@../rave-portal/target/tomcat6x/webapps/ROOT/WEB-INF/classes|,|,|,
+useCurrentDateForDestinationFiles=false

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: Administrator
+Build-Jdk: 1.8.0_181
+Specification-Title: Apache Rave :: rave-w3c-provider
+Specification-Version: 0.14
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: Apache Rave :: rave-w3c-provider
+Implementation-Version: 0.14
+Implementation-Vendor-Id: org.apache.rave
+Implementation-Vendor: The Apache Software Foundation
+Created-By: Maven Integration for Eclipse
+

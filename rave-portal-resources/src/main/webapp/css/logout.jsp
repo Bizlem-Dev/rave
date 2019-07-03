@@ -1,0 +1,1 @@
+<%=response.sendRedirect("http://socialmail.in:8081/sling/logout.jsp");%>

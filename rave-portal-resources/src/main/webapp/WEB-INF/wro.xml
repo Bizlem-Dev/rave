@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+
+  <group name="g1">
+    <css>/static/css/jquery-ui.css</css>
+    <css>/static/css/rave.css</css>
+	<css>/static/css/custom.css</css>
+	<js>/static/script/json2.js</js>
+	<js>/static/script/jquery-1.7.2.min.js</js>
+	<js>/static/script/jquery-ui.min.js</js>
+	<js>/static/script/bootstrap.min.js</js>
+	<js>/static/script/jquery.validate.min.js</js>
+  </group>
+  
+  <group name="g2">
+	<js>/static/script/rave_all.min.js</js>
+  </group>
+  <group name="g3">
+	<js>/static/script/rave.js</js>
+	<js>/static/script/rave_api.js</js>
+	<js>/static/script/rave_opensocial.js</js>
+	<js>/static/script/rave_wookie.js</js>
+	<js>/static/script/rave_layout.js</js>
+	<js>/static/script/rave_forms.js</js>
+	<js>/static/script/rave_person_profile.js</js>
+	<js>/static/script/rave_store.js</js>
+	<js>/static/script/rave_admin.js</js>
+  </group>
+  <group name="g4">
+	<js>/app/messagebundle/rave_client_messages.js</js>
+  </group>
+  <group name="g5">
+	<js>/static/script/modernizr.min.js</js>
+  </group>
+  <group name="g6">
+	<js>/static/script/yahoo-dom-event.js</js>
+	<js>/static/script/cross-frame.js</js>
+  </group>
+</groups>
