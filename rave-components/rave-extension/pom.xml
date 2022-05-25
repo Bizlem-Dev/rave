@@ -12,7 +12,7 @@
 	<artifactId>rave-extension</artifactId>
 	<version>0.0.1</version>
 	<properties>
-		<org.springframework.version>3.1.0.RELEASE</org.springframework.version>
+		<org.springframework.version>5.2.22.RELEASE</org.springframework.version>
 		<org.springframework.mobile.version>1.0.0.M3</org.springframework.mobile.version>
 		<javax.servlet.version>2.5</javax.servlet.version>
 		<openjpa.version>2.2.0</openjpa.version>
